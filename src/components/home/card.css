@@ -1,0 +1,36 @@
+.card{
+    width: 25vh;
+    background-color: #8c6e9296;
+    border-radius: 20px;
+    padding: 6vh 8vh;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 -1vh 2vh 0 rgb(163, 163, 163);
+    margin: 2vh;
+}
+
+.card *{
+    margin-bottom: 2vh;
+}
+
+.card .card-info, .card .card-desc{
+    font-size:large;
+    text-align: center;
+}
+
+.card .card-img{
+    width: auto;
+    margin: auto;
+}
+
+.card .card-buy{
+    margin-top: 4vh;
+    display: flex;
+    gap: 50%;
+}
+
+.card .card-shop img{
+    width: 2em;
+}

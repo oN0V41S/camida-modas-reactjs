@@ -1,0 +1,42 @@
+.galeria{
+    margin-top: 2vh;
+    padding: 5vh;
+    border-radius: 1vh;
+    border-top: 4px solid rgb(63, 63, 63);
+    width: 90%;
+}
+
+
+.galeria .galeria-titulo{
+    margin: auto;
+    padding: 4vh 0;
+    border-radius: 1vh;
+    margin-top: 6vh;
+    font-size: 6vh;
+    text-align: center;
+}
+
+.galeria .galeria-conteudo{
+    display: flex;
+    margin-top: 4vh;
+    width: 100%;
+    justify-items: center;
+    gap: 20%;
+}
+
+.galeria .galeria-conteudo .redes{
+    background-color: rgb(151, 151, 151);
+    border-radius: 15px;
+    box-shadow: 0 0 2px 0;
+    font-size: larger;
+    margin: auto;
+    padding: 20vh 2vh;
+    text-align: center;
+    width: 25%;
+}
+
+
+.galeria .carrosel .slide{
+    margin-right: 0;
+    height: 80vh;
+}

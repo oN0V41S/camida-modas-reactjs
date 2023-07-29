@@ -1,0 +1,28 @@
+.header{
+    background-color: rgb(110, 110, 110);
+    height: 10vh;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    padding: 0 5vh;
+    box-shadow: 0 2vh 2vh 0 rgb(163, 163, 163);
+}
+
+.nav {
+    display: flex;
+    align-self: center;
+    gap: 2vh;
+    padding: 2%;
+    justify-self: end;
+}
+
+.nav .nav-link{
+    background-color: #ae00ff00;
+    border: 0px;
+    font-size: 4vh;
+    padding: 1vh;
+    border-radius: 1.5vh;
+}.nav .nav-link:hover{
+    background-color: rgba(0, 81, 255, 0.26)
+}
+

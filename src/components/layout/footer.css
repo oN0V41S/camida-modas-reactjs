@@ -1,0 +1,16 @@
+.footer{
+    background-color: rgb(151, 151, 151);
+    padding: 8vh 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    box-shadow: 0 -1vh 2vh 0 rgb(163, 163, 163);
+}
+
+.footer .footer-sec1{
+    display: flex;
+}
+
+.footer .footer-sec1 div{
+    width: 50%;
+}
