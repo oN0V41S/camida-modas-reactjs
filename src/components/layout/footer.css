@@ -5,12 +5,55 @@
     flex-direction: column;
     gap: 4vh;
     box-shadow: 0 -1vh 2vh 0 rgb(163, 163, 163);
+    color: white;
 }
 
-.footer .footer-sec1{
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer .footer-title{
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-bottom: 2vh;
+}
+
+.footer .footer-sec{
     display: flex;
 }
 
-.footer .footer-sec1 div{
+.sec-right, .sec-left{
     width: 50%;
+}
+
+.footer-pay, .footer-inst{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4vh;
+    gap: 2vh;
+}
+
+.footer-redes{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.footer-btn{
+    background-color: white;
+    align-self: self-end;
+    border-radius: 50%;
+    padding: 1vh;
+    width: 28px;
+}
+
+.footer-btn img{
+    width: 28px;
+}
+
+.footer-autoral{
+    font-weight: bold;
 }

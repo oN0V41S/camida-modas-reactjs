@@ -1,0 +1,38 @@
+.comentarios{
+    background-color: #a7a7a7;
+    box-shadow: 0 -1vh 2vh 0 rgb(163, 163, 163);
+    padding: 10vh 10vh;
+    display: flex;
+    gap: 10%;
+}
+
+
+.coment{
+    color: white;
+    gap: 2%;
+    display: flex;
+    align-items: center;
+    background-color: #a9a9a9;
+    box-shadow: 0 0 5vh 0 white;
+
+    width: 50%;
+    padding: 2vh;
+    border-radius: 20px;
+}
+
+.coment img{
+    border-radius: 100px;
+    border: 2px solid white;
+}
+
+@media(max-width: 700px){
+    .comentarios{
+        display: flex;
+        flex-direction: column;
+        gap: 4vh;
+    }
+
+    .coment{
+        width: 100%;
+    }
+}

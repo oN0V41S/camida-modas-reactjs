@@ -2,6 +2,7 @@ import './main.css'
 import Carrousel from './Carousel';
 import Galeria from './Galeria';
 import Produtos from './Produtos.js'
+import Comentarios from './Comentarios.js'
 
 function Main(){
     return(
@@ -9,6 +10,7 @@ function Main(){
             <Carrousel/>
             <Galeria/>
             <Produtos/>
+            <Comentarios/>
         </main>
     )
 }

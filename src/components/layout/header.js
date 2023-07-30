@@ -7,8 +7,8 @@ function Header (){
             <div className='img'>
             </div>
             <nav className="nav">
-                <button className="nav-link">Salvinho</button>
-                <button className="nav-link">Salvinho</button>
+                <button className="nav-link">Catálogo</button>
+                <button className="nav-link">Sobre</button>
             </nav>
         </header>
     )

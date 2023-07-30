@@ -3,6 +3,12 @@
     height: 90vh;
 }
 
+
 .carrosel{
     border-radius: 15px;
+    margin-top: 10vh;
+}
+
+.slide .legend{
+    display: none;
 }

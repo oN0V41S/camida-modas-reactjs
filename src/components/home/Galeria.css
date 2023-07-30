@@ -2,8 +2,7 @@
     margin-top: 2vh;
     padding: 5vh;
     border-radius: 1vh;
-    border-top: 4px solid rgb(63, 63, 63);
-    width: 90%;
+    width: 80%;
 }
 
 
@@ -14,11 +13,13 @@
     margin-top: 6vh;
     font-size: 6vh;
     text-align: center;
+    border-top: 3px solid black;
 }
 
 .galeria .galeria-conteudo{
     display: flex;
     margin-top: 4vh;
+    margin: auto;
     width: 100%;
     justify-items: center;
     gap: 20%;
@@ -33,10 +34,32 @@
     padding: 20vh 2vh;
     text-align: center;
     width: 25%;
+    box-shadow: 0 -1vh 4vh 0 rgb(163, 163, 163);
 }
 
 
 .galeria .carrosel .slide{
     margin-right: 0;
     height: 80vh;
+}
+
+.galeria .carousel-root{
+    width: max-content;
+}
+
+
+@media(max-width:700px){
+
+    .galeria .galeria-conteudo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .galeria .galeria-conteudo .redes{
+        font-size: 4vh;
+        text-align: left;
+        padding: 5vh 8vh;
+        width: auto;
+        margin: 4vh;
+    }
 }
